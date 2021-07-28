@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Gaming';
+    src: url(./../assets/font/CCShake.otf);
+}
+
+.template-oantuti{
+    position:fixed;
+    width:100%;
+    height: 100%;
+    background-image: url("./../assets/oantuti-bg.jpg");
+    background-size: cover;
+    font-family: Gaming;
+}
+
+.template-oantuti .game{
+    margin-top: 3rem;
+} 
+.template-oantuti .info-middle{
+    display: flex;
+    flex-direction: column;
+}
+.template-oantuti .info-middle .info-game{
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 1.5rem;
+    padding: 1rem 0;
+    margin-bottom:100%;
+    font-size: 2.5rem;
+}
+.notice{font-size: 4rem; margin-bottom:1rem;color:#FFCD00;
+filter:drop-shadow(2px 2px 0 #000);}
+.template-oantuti .info-middle .fight{
+    margin-top:-20rem;
+    margin-left:2rem;
+    transition: .1s ease-in-out;
+}
+.template-oantuti .info-middle .fight:hover{
+    transform: scale(1.7);
+    cursor: pointer;
+    -webkit-filter: drop-shadow( 3px 3px 12px #00552c);
+    filter: drop-shadow( 3px 3px 0 #fff);
+}
+.template-oantuti .info-middle .fight:active {
+    transform: scale(1.5);
+}
+.bubble-red img, .bubble-blue img{margin-top:15rem;margin-bottom: -10rem;}
+.bubble-blue img{margin-left:6rem;}
+.bubble-red img{transform: scaleX(-1);margin-left: -12rem;}
+.weapon-blue{margin-top:-5rem;margin-left:100px;}
+.weapon-blue .keo{margin-top:-5px;}
+.weapon-blue img{transition: .1s all;}
+.weapon-blue img:hover{
+    filter: drop-shadow(1px 1px 0px #FFf);
+    transform: scale(1.2);
+    cursor: pointer;
+}
